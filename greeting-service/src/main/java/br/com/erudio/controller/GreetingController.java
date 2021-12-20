@@ -1,7 +1,8 @@
-package br.com.erudio;
+package br.com.erudio.controller;
 
 import java.util.concurrent.atomic.AtomicLong;
 
+import br.com.erudio.model.Greeting;
 import br.com.erudio.configuration.GreetingConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

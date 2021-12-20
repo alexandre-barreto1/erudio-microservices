@@ -10,10 +10,7 @@ public class GreetingConfiguration {
     private String greeting;
     private String defaultValue;
 
-    public GreetingConfiguration(String greeting, String defaultValue) {
-        this.greeting = greeting;
-        this.defaultValue = defaultValue;
-    }
+    public GreetingConfiguration() {}
 
     public String getGreeting() {
         return greeting;
