@@ -25,6 +25,7 @@ public class GreetingConfiguration {
     }
 
     public void setDefaultValue(String defaultValue) {
+
         this.defaultValue = defaultValue;
     }
 }
