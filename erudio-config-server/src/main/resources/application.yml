@@ -8,6 +8,6 @@ spring:
       server:
         git:
           uri: https://github.com/alexandre-barreto1/erudio-config-server
-          default-label: main
+          default-label: master
           search-paths:
           - 'greeting-service*'
